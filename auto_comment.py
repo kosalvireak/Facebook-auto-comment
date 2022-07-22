@@ -3,7 +3,6 @@ from turtle import hideturtle
 import pyautogui
 import time
 
-#comments = ["model 1 size 43 @chakriya_met @twilight_anonymous @_han_nahhh_"]
 comments ="hello"
 
 
@@ -20,7 +19,7 @@ BigEndianStructure
 while i < 200:
 
 
-    pyautogui.typewrite(comments,i)
+    pyautogui.typewrite(comments)
     pyautogui.typewrite("\n")
     time.sleep(1)
 
