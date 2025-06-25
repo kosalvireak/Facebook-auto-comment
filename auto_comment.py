@@ -5,7 +5,7 @@ comments = ["cat ", "rabbit ", "donkey", "dear", "elephant"]
 
 
 for n in comments:
-    me = "pich is " + n
+    me = "I like " + n
 
     pyautogui.typewrite(me)
     pyautogui.typewrite("\n")
